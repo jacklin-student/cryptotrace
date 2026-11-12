@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+venv/
+.venv/
+env/
+
+# Build outputs
+dist/
+frontend/dist/
+build/
+.vite/
+
+# Python
+__pycache__/
+backend/**/__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Database & runtime files
+*.db
+*.sqlite
+*.sqlite3
+cryptotrace.db
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+*.log
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
